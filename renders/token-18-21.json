@@ -1,0 +1,33 @@
+{
+  "name": "Fallow 18,21",
+  "description": "A parcel of Fallow, an island of 1,024 plots computed entirely onchain. Tend it once a day or it goes back to wild.",
+  "image": "(see hero svg)",
+  "attributes": [
+    {
+      "trait_type": "Terrain",
+      "value": "Meadow"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Sown"
+    },
+    {
+      "trait_type": "Rows",
+      "value": "Diagonal \\"
+    },
+    {
+      "trait_type": "Season",
+      "value": "Autumn"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Loam",
+      "value": 314
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Streak",
+      "value": 62
+    }
+  ]
+}

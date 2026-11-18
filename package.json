@@ -1,0 +1,20 @@
+{
+  "name": "fallow",
+  "version": "0.1.0",
+  "description": "Fallow: a minimalist, fully onchain land NFT. Tend your parcel once a day or it goes back to wild.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test test/fallow.test.js && hardhat test test/render.test.js",
+    "calibrate": "node scripts/calibrate.js",
+    "render": "node scripts/render.js",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "hardhat": "^2.29.2",
+    "solc": "0.8.28"
+  },
+  "private": true
+}
